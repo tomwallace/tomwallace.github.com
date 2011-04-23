@@ -1,0 +1,153 @@
+/* General HTML Tag styles */
+body {
+	background: #ffffff		
+}
+
+
+/* Header styles */
+#header {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	position: relative;
+	overflow: hidden;
+	width: 900px;
+	height: 100px;
+	background: #ffffff url('karateBoyWhite.jpg') no-repeat left center;	
+}
+#headerTitle {
+	position: absolute;
+	top: 10px;
+	left: 260px;
+	font-family: Comic Sans, Comic Sans MS, cursive;
+	font-size: 50px;
+	font-weight: bold;	
+}
+
+
+
+
+
+
+/* Navigation styles */
+#navigationWrapper {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	overflow: hidden;
+	width: 900px;	
+}
+#navigationKnot {
+	position: relative;
+	float: left;
+	width: 87px;
+	height: 75px;
+	background: #ffffff url('karateBeltWhite.png') no-repeat left top;
+	z-index: 50;	
+}
+#navigation {
+	position: relative;
+	float: left;
+	margin-top: 6px;
+	width: 812px;
+	background-color: #ffffff;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;	
+}
+#navigation ul, #navigation li {
+	display: inline;
+	margin: 0;
+	padding: 5px 13px 5px 13px;
+}
+#navigation li.navigationActive, #navigation a:link, #navigation a:visited {
+	color: #000000;
+	font-weight: bold;
+	font-family: Comic Sans, Comic Sans MS, cursive;
+	font-size: 20px;
+	cursor: pointer;
+	text-decoration: none;
+}
+#navigation a:hover {
+	text-decoration: none;
+	color: red;
+}
+#navigation li.navigationActive {
+	color: #009933;
+}
+
+
+/* Main content area styles */
+#contentWrapper {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	overflow: hidden;
+	width: 900px;	
+}
+/* Main Column */
+#mainColumn {
+	position: relative;
+	float: left;
+	overflow: hidden;
+	width: 590px;	
+}
+#mainColumn .topCap {
+	width: 590px;
+	height: 10px;
+	background: #ffffff url('mainColumnTopCap.jpg') no-repeat left top;
+}
+#mainColumn .bottomCap {
+	width: 590px;
+	height: 10px;
+	background: #ffffff url('mainColumnBottomCap.jpg') no-repeat left bottom;	
+}
+#mainColumn .blockContent {
+	position: relative;
+	overflow: hidden;
+	width: 576px;
+	padding: 5px;
+	border: 2px solid #999999;	
+}
+#mainColumn .blockTitle {
+	font-family: Comic Sans, Comic Sans MS, cursive;
+	font-size: 30px;
+	font-weight: bold;
+	padding-bottom: 10px;	
+}
+/* Right Column */
+#rightColumn {
+	position: relative;
+	float: right;
+	overflow: hidden;
+	width: 290px;	
+}
+.rightColumnBlock {
+	position: relative;
+	overflow: hidden;
+	width: 290px;
+	margin-bottom: 30px;	
+}
+.rightColumnBlock .topCap {
+	width: 290px;
+	height: 10px;
+	background: #ffffff url('rightColumnTopCap.jpg') no-repeat left top;
+}
+.rightColumnBlock .bottomCap {
+	width: 290px;
+	height: 10px;
+	background: #ffffff url('rightColumnBottomCap.jpg') no-repeat left bottom;	
+}
+.rightColumnBlock .blockContent {
+	position: relative;
+	overflow: hidden;
+	width: 276px;
+	padding: 5px;
+	border: 2px solid #999999;	
+}
+.rightColumnBlock .blockTitle {
+	font-family: Comic Sans, Comic Sans MS, cursive;
+	font-size: 20px;
+	font-weight: bold;
+	padding-bottom: 5px;	
+}

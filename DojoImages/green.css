@@ -1,0 +1,38 @@
+/* Green Belt! */
+
+#header {
+	background: #ffffff url('karateBoyGreen.jpg') no-repeat left center;	
+}
+
+#navigationKnot {
+	background: #ffffff url('karateBeltGreen.png') no-repeat left top;
+}
+#navigation {
+	background-color: #009933;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;	
+}
+#navigation li.navigationActive, #navigation a:link, #navigation a:visited {
+	color: #ffffff;
+}
+#navigation li.navigationActive {
+	color: #FCE9A7
+}
+#mainColumn .topCap {
+	background: #ffffff url('mainColumnTopCapGreen.jpg') no-repeat left top;
+}
+#mainColumn .bottomCap {
+	background: #ffffff url('mainColumnBottomCapGreen.jpg') no-repeat left bottom;	
+}
+#mainColumn .blockContent {
+	border: 2px solid #009933;	
+}
+.rightColumnBlock .topCap {
+	background: #ffffff url('rightColumnTopCapGreen.jpg') no-repeat left top;
+}
+.rightColumnBlock .bottomCap {
+	background: #ffffff url('rightColumnBottomCapGreen.jpg') no-repeat left bottom;	
+}
+.rightColumnBlock .blockContent {
+	border: 2px solid #009933;	
+}
