@@ -1,0 +1,16 @@
+/* Header styles */
+#header {
+	background-color: #009933;	
+}
+
+/* Navigation styles */
+#navigation li.navigationActive {
+	color: #003399;
+}
+/* Left Column */
+.leftColumnBlock {
+	background-image: url('widgetBackgroundGreen.png');
+}
+.leftColumnBlock .blockContent {
+	color: #ffffff;	
+}
