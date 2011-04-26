@@ -1,0 +1,22 @@
+/* Header styles */
+#header {
+	background-color: #009933;	
+}
+
+/* Main content area styles */
+/* Main Column */
+#mainColumn {
+	border: 2px solid #009933;	
+}
+#mainColumn .blockTitle {
+	color: #009933;	
+}
+/* Right Column */
+.rightColumnBlock {
+	border: 2px solid #009933;
+}
+.rightColumnBlock .blockTitle {
+	font-size: 20px;
+	font-weight: bold;
+	padding-bottom: 5px;	
+}
