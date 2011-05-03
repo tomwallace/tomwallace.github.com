@@ -59,6 +59,7 @@
 									<include name="**/*.htm"/>
 									<include name="**/*.jpg"/>
 									<include name="**/*.css"/>
+									<exclude name="**/${project.build.directory}"/>
 								</fileset>
 							</copy>							
 						</target>
