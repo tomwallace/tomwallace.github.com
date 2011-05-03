@@ -52,6 +52,7 @@
 					</goals>
 					<configuration>
 						<target>
+							<delete dir="${project.build.directory}/tempBuild/" />
 							<copy todir="${project.build.directory}/tempBuild/webapp">
 								<fileset dir="${basedir}">
 									<include name="**/*.jsp"/>
@@ -59,7 +60,7 @@
 									<include name="**/*.htm"/>
 									<include name="**/*.jpg"/>
 									<include name="**/*.css"/>
-									<exclude name="**/${project.build.directory}"/>
+									<exclude name="**/target/**"/>
 								</fileset>
 							</copy>							
 						</target>
